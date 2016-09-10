@@ -28,7 +28,8 @@
         android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="0dp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold|italic"
+        android:onClick="sendMessage1" />
 
     <Button
         android:layout_width="370dp"

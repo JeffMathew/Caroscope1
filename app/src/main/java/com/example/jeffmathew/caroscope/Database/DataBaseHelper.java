@@ -53,7 +53,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         car car = null;
         List<car> productList = new ArrayList<>();
         openDatabase();
-        Cursor cursor = mDatabase.rawQuery("SELECT * FROM PRODUCT", null);
+        Cursor cursor = mDatabase.rawQuery("SELECT * FROM car_info", null);
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
             car = new car(cursor.getInt(0), cursor.getString(1), cursor.getString(2));

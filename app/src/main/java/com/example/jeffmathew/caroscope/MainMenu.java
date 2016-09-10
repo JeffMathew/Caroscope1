@@ -17,4 +17,10 @@ public class MainMenu extends AppCompatActivity {
         Intent intent = new Intent(MainMenu.this, FilterActivity.class);
         startActivity(intent);
     }
+
+    public void sendMessage1(View view)
+    {
+        Intent intent = new Intent(MainMenu.this, TestActivity.class);
+        startActivity(intent);
+    }
 }

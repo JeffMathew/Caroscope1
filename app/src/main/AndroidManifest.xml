@@ -18,7 +18,11 @@
         <activity
             android:name=".FilterActivity"
             android:parentActivityName=".MainMenu" />
-        <activity android:name=".CarList"></activity>
+        <activity android:name=".CarList" />
+        <activity
+            android:name=".TestActivity"
+            android:parentActivityName=".MainMenu">
+        </activity>
     </application>
 
 </manifest>
