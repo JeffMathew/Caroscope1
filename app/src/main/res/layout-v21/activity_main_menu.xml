@@ -29,7 +29,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginRight="0dp"
         android:textStyle="bold|italic"
-        android:onClick="sendMessage1" />
+        android:onClick="sendMessage0" />
 
     <Button
         android:layout_width="370dp"

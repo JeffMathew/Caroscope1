@@ -18,9 +18,9 @@ public class MainMenu extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void sendMessage1(View view)
+    public void sendMessage0(View view)
     {
-        Intent intent = new Intent(MainMenu.this, TestActivity.class);
-        startActivity(intent);
+        Intent intent0 = new Intent(MainMenu.this, TestActivity.class);
+        startActivity(intent0);
     }
 }

@@ -13,9 +13,9 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Test Activity Successful"
         android:id="@+id/textView2"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
-        android:textSize="70sp" />
+        android:textSize="70sp"
+        android:text="Text Activity Successful" />
 </RelativeLayout>

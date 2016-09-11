@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.jeffmathew.caroscope.Database.DataBaseHelper;
@@ -30,8 +31,28 @@ public class CarList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_car_list);
+
+        Bundle bundle = getIntent().getExtras();
+        String type = bundle.getString("type");
+        String company = bundle.getString("company");
+        String price = bundle.getString("price");
+        String transmission = bundle.getString("transmission");
+        String fuel = bundle.getString("fuel");
+
+        //TextView typeContent = (TextView)findViewById(R.id.textView3);
+        //typeContent.setText(type);
+
+        //TextView companyContent = (TextView) findViewById(R.id.textView4);
+        //companyContent.setText(company);
+
+        //TextView priceContent = (TextView) findViewById(R.id.textView5);
+        //priceContent.setText(price);
+
+
         lvProduct = (ListView)findViewById(R.id.listview_cars);
         mDBHelper = new DataBaseHelper(this);
+
+
 
         //Check exists database
         File database = getApplicationContext().getDatabasePath(DataBaseHelper.DBNAME);
