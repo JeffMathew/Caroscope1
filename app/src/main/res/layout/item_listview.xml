@@ -10,19 +10,23 @@
 
     <TextView
         android:id="@+id/car_name"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Name"
         android:textColor="#4bb6d6"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:focusable="false"
+        android:clickable="false"/>
 
     <TextView
         android:id="@+id/car_company"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Company"
         android:textColor="#b30000"
-        android:textSize="18dp" />
+        android:textSize="18dp"
+        android:clickable="false"
+        android:focusable="false" />
 
 
 </LinearLayout>
